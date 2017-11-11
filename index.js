@@ -20,7 +20,7 @@ function deepestChild() {
   while(deep){
     gNode = deep // (since we have gNode.children[à] stored there )
     deep = gNode.children[0];
-
+  //  deep.innerHTML('div');
   }
-  return deep;
+  return gNode;
 }
