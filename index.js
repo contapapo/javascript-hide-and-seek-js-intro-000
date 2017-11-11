@@ -18,7 +18,7 @@ function deepestChild() {
   var deep = gNode.children[0];
 
   for (var i = 0; i < deep.length; i++) {
-    deep = deep.children[i]
+    deep = deep.children[0]
   }
   return deep;
 }
