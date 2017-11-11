@@ -18,9 +18,8 @@ function deepestChild() {
   var deep = gNode.children[0];
 
   while(deep){
-    gNode = deep // (since we have gNode.children[à] stored there )
+    gNode = deep // (since we have gNode.children[0] stored there )
     deep = gNode.children[0];
-  //  deep.innerHTML('div');
   }
   return gNode;
 }
